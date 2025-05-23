@@ -15,7 +15,7 @@ from shapely.geometry import Point, Polygon
 # Step 1: 加载 0407 文件夹内所有 JSON
 import glob
 
-data_folder = "bus_GIFT_API_data/0423"
+data_folder = "bus_GIFT_API_data/0423_2025"
 vehicle_files = sorted(glob.glob(os.path.join(data_folder, "vehicle_data_*.json")))
 
 all_records = []
