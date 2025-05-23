@@ -86,7 +86,8 @@ from shapely.geometry import Polygon, Point
 import ast
 
 # CSV 文件路径
-crz_csv_path = os.path.expanduser("~/Desktop/MTA_Central_Business_District_Geofence__Beginning_June_2024_20250407.csv")
+crz_csv_path = "bus_GIFT_API_data/MTA_Central_Business_District_Geofence__Beginning_June_2024_20250407.csv"
+
 
 # 读取 CSV 中的 polygon 字符串
 with open(crz_csv_path, "r") as f:
