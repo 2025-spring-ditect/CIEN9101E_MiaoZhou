@@ -1,0 +1,1553 @@
+{
+  "Siri": {
+    "ServiceDelivery": {
+      "VehicleMonitoringDelivery": [
+        {
+          "VehicleActivity": [
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M42",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-021900_M42_301"
+                },
+                "JourneyPatternRef": "MTA_M420028",
+                "PublishedLineName": [
+                  "M42"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403249",
+                "DestinationRef": "MTA_903082",
+                "DestinationName": [
+                  "WEST SIDE PIER 12 AV CROSSTOWN"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T03:39:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.969963,
+                  "Latitude": 40.74798
+                },
+                "Bearing": 161.56505,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_3420_M42-301",
+                "VehicleRef": "MTA NYCT_9717",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:39:59.386-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:41:04.769-04:00",
+                  "ArrivalProximityText": "< 1 stop away",
+                  "ExpectedDepartureTime": "2025-04-01T03:41:04.769-04:00",
+                  "DistanceFromStop": 193,
+                  "NumberOfStopsAway": 0,
+                  "Extensions": {
+                    "Capacities": {
+                      "EstimatedPassengerCount": 2,
+                      "EstimatedPassengerCapacity": 80
+                    }
+                  },
+                  "StopPointRef": "MTA_403251",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "E 42 ST/1 AV"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:32.080-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M15",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-021000_M15_204"
+                },
+                "JourneyPatternRef": "MTA_M150041",
+                "PublishedLineName": [
+                  "M15"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405471",
+                "DestinationRef": "MTA_803002",
+                "DestinationName": [
+                  "SOUTH FERRY via 2 AV"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21502"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:10129"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.953495,
+                  "Latitude": 40.775461
+                },
+                "Bearing": 233.2759,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_4260_M15-204",
+                "VehicleRef": "MTA NYCT_5359",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:42:14.391-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 55,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_401755",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "2 AV/E 82 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:34.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M103",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-017200_M101_7"
+                },
+                "JourneyPatternRef": "MTA_M1030045",
+                "PublishedLineName": [
+                  "M103"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_404255",
+                "DestinationRef": "MTA_404142",
+                "DestinationName": [
+                  "CITY HALL via LEX AV"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T03:42:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23451"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21837"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -74.006621,
+                  "Latitude": 40.711819
+                },
+                "Bearing": 194.03624,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_2400_M101-7",
+                "VehicleRef": "MTA NYCT_5313",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:35:00.503-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 77,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_404142",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "PARK ROW/BEEKMAN ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:23.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M101",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-021300_M101_3"
+                },
+                "JourneyPatternRef": "MTA_M1010102",
+                "PublishedLineName": [
+                  "M101"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405154",
+                "DestinationRef": "MTA_903360",
+                "DestinationName": [
+                  "FT GEORGE via 3 AV via AMSTERDAM AV"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T03:33:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23451"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21837"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.989303,
+                  "Latitude": 40.730362
+                },
+                "Bearing": 53.852005,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_1020_M101-3",
+                "VehicleRef": "MTA NYCT_5309",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:33:22.526-04:00",
+                  "ArrivalProximityText": "at stop",
+                  "DistanceFromStop": 5,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_405155",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "3 AV/E 9 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:33.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M101",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-015300_M101_2"
+                },
+                "JourneyPatternRef": "MTA_M1010102",
+                "PublishedLineName": [
+                  "M101"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405154",
+                "DestinationRef": "MTA_903360",
+                "DestinationName": [
+                  "FT GEORGE via 3 AV via AMSTERDAM AV"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T04:10:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23451"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21837"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.927787,
+                  "Latitude": 40.856996
+                },
+                "Bearing": 196.58734,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_960_M101-2",
+                "VehicleRef": "MTA NYCT_5302",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:28:00.535-04:00",
+                  "ArrivalProximityText": "at stop",
+                  "DistanceFromStop": 0,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_903360",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "SAINT NICHOLAS AV/FORT GEORGE HILL"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:24.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M60+",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-019000_SBS60_901"
+                },
+                "JourneyPatternRef": "MTA_SBS601386",
+                "PublishedLineName": [
+                  "M60-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403117",
+                "DestinationRef": "MTA_804142",
+                "DestinationName": [
+                  "SELECT BUS LA GUARDIA AIRPORT"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.887926,
+                  "Latitude": 40.766312
+                },
+                "Bearing": 3.4682293,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_3060_SBS60-901",
+                "VehicleRef": "MTA NYCT_5454",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:41:09.641-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:41:03.184-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:41:03.184-04:00",
+                  "DistanceFromStop": 62,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_504417",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "23 AV/82 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:45.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M60+",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-020800_SBS60_904"
+                },
+                "JourneyPatternRef": "MTA_SBS601385",
+                "PublishedLineName": [
+                  "M60-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_503848",
+                "DestinationRef": "MTA_402018",
+                "DestinationName": [
+                  "SELECT BUS WEST SIDE BROADWAY-106 ST"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.886014,
+                  "Latitude": 40.768827
+                },
+                "Bearing": 225.0,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_7860_SBS60-904",
+                "VehicleRef": "MTA NYCT_5445",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:37:31.650-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:41:52.482-04:00",
+                  "ArrivalProximityText": "< 1 stop away",
+                  "ExpectedDepartureTime": "2025-04-01T03:41:52.482-04:00",
+                  "DistanceFromStop": 316,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_503855",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "DITMARS BLVD/81 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:45.586-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M60+",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-022500_SBS60_905"
+                },
+                "JourneyPatternRef": "MTA_SBS601386",
+                "PublishedLineName": [
+                  "M60-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403117",
+                "DestinationRef": "MTA_804142",
+                "DestinationName": [
+                  "SELECT BUS LA GUARDIA AIRPORT"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T03:45:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.967716,
+                  "Latitude": 40.801821
+                },
+                "Bearing": 85.336655,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_11160_SBS60-905",
+                "VehicleRef": "MTA NYCT_5462",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:45:00.659-04:00",
+                  "ArrivalProximityText": "at stop",
+                  "DistanceFromStop": 0,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_403117",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "BROADWAY/W 106 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:42.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M60+",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-018800_SBS60_903"
+                },
+                "JourneyPatternRef": "MTA_SBS601385",
+                "PublishedLineName": [
+                  "M60-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_503848",
+                "DestinationRef": "MTA_402018",
+                "DestinationName": [
+                  "SELECT BUS WEST SIDE BROADWAY-106 ST"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.929107,
+                  "Latitude": 40.800917
+                },
+                "Bearing": 155.77225,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_6660_SBS60-903",
+                "VehicleRef": "MTA NYCT_5467",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:35:24.663-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:41:16.353-04:00",
+                  "ArrivalProximityText": "< 1 stop away",
+                  "ExpectedDepartureTime": "2025-04-01T03:41:16.353-04:00",
+                  "DistanceFromStop": 492,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_405414",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "E 125 ST/2 AV"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:31.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M60+",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-021000_SBS60_902"
+                },
+                "JourneyPatternRef": "MTA_SBS601386",
+                "PublishedLineName": [
+                  "M60-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403117",
+                "DestinationRef": "MTA_804142",
+                "DestinationName": [
+                  "SELECT BUS LA GUARDIA AIRPORT"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.945862,
+                  "Latitude": 40.807922
+                },
+                "Bearing": 337.44275,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_4860_SBS60-902",
+                "VehicleRef": "MTA NYCT_5466",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:41:57.666-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 79,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_405417",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "W 125 ST/MALCOLM X  BLVD"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:32.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M2",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MV_B5-Weekday-SDon-019400_M2_202"
+                },
+                "JourneyPatternRef": "MTA_M020099",
+                "PublishedLineName": [
+                  "M2"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405527",
+                "DestinationRef": "MTA_903049",
+                "DestinationName": [
+                  "WASHINGTON HTS BWAY-168 ST via MADISON"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:22663"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23502"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.957077,
+                  "Latitude": 40.783233
+                },
+                "Bearing": 54.462322,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MV_B5-Weekday-SDon_E_MV_6060_M2-202",
+                "VehicleRef": "MTA NYCT_9837",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:40:57.693-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 147,
+                  "NumberOfStopsAway": 0,
+                  "Extensions": {
+                    "Capacities": {
+                      "EstimatedPassengerCount": 1,
+                      "EstimatedPassengerCapacity": 80
+                    }
+                  },
+                  "StopPointRef": "MTA_400038",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "MADISON AV/E 91 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:30.035-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M7",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OF_B5-Weekday-SDon-022000_M7_201"
+                },
+                "JourneyPatternRef": "MTA_M070215",
+                "PublishedLineName": [
+                  "M7"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405579",
+                "DestinationRef": "MTA_400067",
+                "DestinationName": [
+                  "HARLEM 147 ST via 6 AV via AMSTERDAM"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.992605,
+                  "Latitude": 40.74316
+                },
+                "Bearing": 52.73974,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OF_B5-Weekday-SDon_E_OF_1620_M7-201",
+                "VehicleRef": "MTA NYCT_9584",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:42:59.803-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:59.616-04:00",
+                  "ArrivalProximityText": "< 1 stop away",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:59.616-04:00",
+                  "DistanceFromStop": 274,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_400731",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "6 AV/W 27 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:27.522-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M15",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-018000_M15_203"
+                },
+                "JourneyPatternRef": "MTA_M150041",
+                "PublishedLineName": [
+                  "M15"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405471",
+                "DestinationRef": "MTA_803002",
+                "DestinationName": [
+                  "SOUTH FERRY via 2 AV"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21502"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:10129"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.990979,
+                  "Latitude": 40.72383
+                },
+                "Bearing": 270.0,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_2460_M15-203",
+                "VehicleRef": "MTA NYCT_5969",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:32:15.868-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:41:10.772-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:41:10.772-04:00",
+                  "DistanceFromStop": 88,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_401787",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "EAST HOUSTON ST/FORSYTH ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:41.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M102",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-018600_M101_5"
+                },
+                "JourneyPatternRef": "MTA_M1020032",
+                "PublishedLineName": [
+                  "M102"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_400087",
+                "DestinationRef": "MTA_404092",
+                "DestinationName": [
+                  "EAST VILLAGE 6 ST via LEX AV"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23451"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21837"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.972684,
+                  "Latitude": 40.756049
+                },
+                "Bearing": 234.24611,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_2100_M101-5",
+                "VehicleRef": "MTA NYCT_5957",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:38:12.882-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:41:19.048-04:00",
+                  "ArrivalProximityText": "< 1 stop away",
+                  "ExpectedDepartureTime": "2025-04-01T03:41:19.048-04:00",
+                  "DistanceFromStop": 377,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_402843",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "LEXINGTON AV/E 45 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:30.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M96",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MV_B5-Weekday-SDon-022000_M96_801"
+                },
+                "JourneyPatternRef": "MTA_M960093",
+                "PublishedLineName": [
+                  "M96"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_401933",
+                "DestinationRef": "MTA_903003",
+                "DestinationName": [
+                  "EAST SIDE 1 AV CROSSTOWN"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.972521,
+                  "Latitude": 40.794935
+                },
+                "Bearing": 338.19858,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MV_B5-Weekday-SDon_E_MV_2700_M96-801",
+                "VehicleRef": "MTA NYCT_9686",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:41:00.096-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "DistanceFromStop": 111,
+                  "NumberOfStopsAway": 0,
+                  "Extensions": {
+                    "Capacities": {
+                      "EstimatedPassengerCount": 2,
+                      "EstimatedPassengerCapacity": 80
+                    }
+                  },
+                  "StopPointRef": "MTA_401934",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "W 96 ST/BROADWAY"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:44.580-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M125",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OF_B5-Weekday-SDon-021000_M125_501"
+                },
+                "JourneyPatternRef": "MTA_M1250044",
+                "PublishedLineName": [
+                  "M125"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_101066",
+                "DestinationRef": "MTA_403829",
+                "DestinationName": [
+                  "MANHATTANVILLE 12 AV via 125 ST"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.929302,
+                  "Latitude": 40.807962
+                },
+                "Bearing": 232.60983,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OF_B5-Weekday-SDon_E_OF_1020_M125-501",
+                "VehicleRef": "MTA NYCT_5264",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:39:49.155-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:42:31.250-04:00",
+                  "ArrivalProximityText": "< 1 stop away",
+                  "ExpectedDepartureTime": "2025-04-01T03:42:31.250-04:00",
+                  "DistanceFromStop": 703,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_403766",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "E 128 ST/3 AV"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:36.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M104",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MV_B5-Weekday-SDon-020000_M104_102"
+                },
+                "JourneyPatternRef": "MTA_M1040169",
+                "PublishedLineName": [
+                  "M104"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403942",
+                "DestinationRef": "MTA_404153",
+                "DestinationName": [
+                  "41 ST via BROADWAY/7 AV"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:15147"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.98204,
+                  "Latitude": 40.778715
+                },
+                "Bearing": 259.49197,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MV_B5-Weekday-SDon_E_MV_1500_M104-102",
+                "VehicleRef": "MTA NYCT_9455",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:42:32.414-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "at stop",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 7,
+                  "NumberOfStopsAway": 0,
+                  "Extensions": {
+                    "Capacities": {
+                      "EstimatedPassengerCount": 4,
+                      "EstimatedPassengerCapacity": 80
+                    }
+                  },
+                  "StopPointRef": "MTA_403168",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "BROADWAY/W 72 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:46.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M104",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MV_B5-Weekday-SDon-020000_M104_101"
+                },
+                "JourneyPatternRef": "MTA_M1040170",
+                "PublishedLineName": [
+                  "M104"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405374",
+                "DestinationRef": "MTA_903352",
+                "DestinationName": [
+                  "WEST HARLEM 129 ST via BROADWAY"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:15147"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.965631,
+                  "Latitude": 40.805462
+                },
+                "Bearing": 52.835526,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MV_B5-Weekday-SDon_E_MV_-900_M104-101",
+                "VehicleRef": "MTA NYCT_9440",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:40:51.422-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 104,
+                  "NumberOfStopsAway": 0,
+                  "Extensions": {
+                    "Capacities": {
+                      "EstimatedPassengerCount": 1,
+                      "EstimatedPassengerCapacity": 80
+                    }
+                  },
+                  "StopPointRef": "MTA_404260",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "BROADWAY/W 113 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:41.068-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M15",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-021000_M15_202"
+                },
+                "JourneyPatternRef": "MTA_M150042",
+                "PublishedLineName": [
+                  "M15"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405083",
+                "DestinationRef": "MTA_803054",
+                "DestinationName": [
+                  "EAST HARLEM 125 ST via 1 AV"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21502"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:10129"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.995143,
+                  "Latitude": 40.712229
+                },
+                "Bearing": 5.3145456,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_60_M15-202",
+                "VehicleRef": "MTA NYCT_5840",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:38:13.524-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 87,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_402090",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "MADISON ST/MARKET ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:34.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M101",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-019000_M101_6"
+                },
+                "JourneyPatternRef": "MTA_M1010106",
+                "PublishedLineName": [
+                  "M101"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_903341",
+                "DestinationRef": "MTA_404092",
+                "DestinationName": [
+                  "EAST VILLAGE 3 AV-6 ST via LEX AV"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23451"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21837"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.940735,
+                  "Latitude": 40.805777
+                },
+                "Bearing": 336.813,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_2220_M101-6",
+                "VehicleRef": "MTA NYCT_5866",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:42:21.535-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 45,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_402661",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "E 125 ST/MADISON AV"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:33.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M103",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-016200_M101_1"
+                },
+                "JourneyPatternRef": "MTA_M1030036",
+                "PublishedLineName": [
+                  "M103"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403639",
+                "DestinationRef": "MTA_903042",
+                "DestinationName": [
+                  "EAST HARLEM 125 ST via 3 AV"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T04:21:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23451"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21837"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.935686,
+                  "Latitude": 40.803863
+                },
+                "Bearing": 54.310932,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_-1260_M101-1",
+                "VehicleRef": "MTA NYCT_5809",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:19:00.617-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 46,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_903042",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "3 AV /E 125 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:28.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M15",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-018000_M15_201"
+                },
+                "JourneyPatternRef": "MTA_M150042",
+                "PublishedLineName": [
+                  "M15"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405083",
+                "DestinationRef": "MTA_803054",
+                "DestinationName": [
+                  "EAST HARLEM 125 ST via 1 AV"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21502"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:10129"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.931859,
+                  "Latitude": 40.800854
+                },
+                "Bearing": 54.865807,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_-2460_M15-201",
+                "VehicleRef": "MTA NYCT_5827",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:41:00.624-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 97,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_401731",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "1 AV/E 125 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:28.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M103",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-016200_M101_1"
+                },
+                "JourneyPatternRef": "MTA_M1030036",
+                "PublishedLineName": [
+                  "M103"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403639",
+                "DestinationRef": "MTA_903042",
+                "DestinationName": [
+                  "EAST HARLEM 125 ST via 3 AV"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T04:21:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:23451"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21837"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.933542,
+                  "Latitude": 40.804414
+                },
+                "Bearing": 336.8414,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_-1260_M101-1",
+                "VehicleRef": "MTA NYCT_5815",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T04:21:00.636-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T04:21:00.000-04:00",
+                  "ArrivalProximityText": "< 1 stop away",
+                  "ExpectedDepartureTime": "2025-04-01T04:21:00.000-04:00",
+                  "DistanceFromStop": 684,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_404255",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "LEXINGTON AV/E 124 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:25.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M14A+",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-020800_SBS14_702"
+                },
+                "JourneyPatternRef": "MTA_SB14A0058",
+                "PublishedLineName": [
+                  "M14A-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_402100",
+                "DestinationRef": "MTA_401388",
+                "DestinationName": [
+                  "SELECT BUS ABINGDON SQ via 14 ST"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.984552,
+                  "Latitude": 40.724646
+                },
+                "Bearing": 53.44753,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_2280_SBS14-702",
+                "VehicleRef": "MTA NYCT_5599",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:38:13.731-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:41:06.940-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:41:06.940-04:00",
+                  "DistanceFromStop": 61,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_401657",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "AVENUE A/E 5 ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:51.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M79+",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-021400_SB79_651"
+                },
+                "JourneyPatternRef": "MTA_SB790031",
+                "PublishedLineName": [
+                  "M79-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_401880",
+                "DestinationRef": "MTA_903286",
+                "DestinationName": [
+                  "SELECT BUS W SIDE RIVERSIDE DR CROSSTOWN"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:18087"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.957244,
+                  "Latitude": 40.774267
+                },
+                "Bearing": 156.83954,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_2220_SB79-651",
+                "VehicleRef": "MTA NYCT_5598",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:37:39.735-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:58.011-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:58.011-04:00",
+                  "DistanceFromStop": 46,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_401884",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "E 79 ST/3 AV"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:49.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M86+",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-022000_SBS86_951"
+                },
+                "JourneyPatternRef": "MTA_SBS860058",
+                "PublishedLineName": [
+                  "M86-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_403560",
+                "DestinationRef": "MTA_403383",
+                "DestinationName": [
+                  "SELECT BUS YORKVILLE 1AV-92 ST CROSSTOWN"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.976886,
+                  "Latitude": 40.788469
+                },
+                "Bearing": 337.47443,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_1920_SBS86-951",
+                "VehicleRef": "MTA NYCT_5513",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:40:21.788-04:00",
+                  "ArrivalProximityText": "at stop",
+                  "DistanceFromStop": 13,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_401930",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "W 86 ST/BROADWAY"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:27.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M23+",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-022000_SBS23_801"
+                },
+                "JourneyPatternRef": "MTA_SBS230023",
+                "PublishedLineName": [
+                  "M23-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_402054",
+                "DestinationRef": "MTA_404085",
+                "DestinationName": [
+                  "SELECT BUS CHELSEA PIERS 12AV CROSSTOWN"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.979562,
+                  "Latitude": 40.734859
+                },
+                "Bearing": 155.22485,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_6300_SBS23-801",
+                "VehicleRef": "MTA NYCT_5518",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:42:34.793-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:55.277-04:00",
+                  "ArrivalProximityText": "at stop",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:55.277-04:00",
+                  "DistanceFromStop": 3,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_402142",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "E 20 ST/1 AV"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:26.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M14D+",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_MQ_B5-Weekday-SDon-021200_SBS14_701"
+                },
+                "JourneyPatternRef": "MTA_SB14D0316",
+                "PublishedLineName": [
+                  "M14D-SBS"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405514",
+                "DestinationRef": "MTA_903088",
+                "DestinationName": [
+                  "SELECT BUS LES DELANCEY-FDR via 14 ST"
+                ],
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:22448"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9387"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -74.004775,
+                  "Latitude": 40.741638
+                },
+                "Bearing": 241.75026,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_MQ_B5-Weekday-SDon_E_MQ_600_SBS14-701",
+                "VehicleRef": "MTA NYCT_6188",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:34:00.834-04:00",
+                  "ExpectedArrivalTime": "2025-04-01T03:40:54.527-04:00",
+                  "ArrivalProximityText": "approaching",
+                  "ExpectedDepartureTime": "2025-04-01T03:40:54.527-04:00",
+                  "DistanceFromStop": 132,
+                  "NumberOfStopsAway": 0,
+                  "Extensions": {
+                    "Capacities": {
+                      "EstimatedPassengerCount": 1,
+                      "EstimatedPassengerCapacity": 80
+                    }
+                  },
+                  "StopPointRef": "MTA_404286",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "W 14 ST/HUDSON ST"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:29.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_M15",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-04-01",
+                  "DatedVehicleJourneyRef": "MTA NYCT_OH_B5-Weekday-SDon-023000_M15_205"
+                },
+                "JourneyPatternRef": "MTA_M150041",
+                "PublishedLineName": [
+                  "M15"
+                ],
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_405471",
+                "DestinationRef": "MTA_803002",
+                "DestinationName": [
+                  "SOUTH FERRY via 2 AV"
+                ],
+                "OriginAimedDepartureTime": "2025-04-01T03:50:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:21502"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:alert:420753"
+                  },
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:10129"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.932526,
+                  "Latitude": 40.803199
+                },
+                "Bearing": 157.34065,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": [
+                  "layover"
+                ],
+                "BlockRef": "MTA NYCT_OH_B5-Weekday-SDon_E_OH_12660_M15-205",
+                "VehicleRef": "MTA NYCT_6101",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-04-01T03:50:00.881-04:00",
+                  "ArrivalProximityText": "at stop",
+                  "DistanceFromStop": 0,
+                  "NumberOfStopsAway": 0,
+                  "StopPointRef": "MTA_405471",
+                  "VisitNumber": 1,
+                  "StopPointName": [
+                    "E 126 ST/2 AV"
+                  ]
+                }
+              },
+              "RecordedAtTime": "2025-04-01T03:40:49.000-04:00"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
