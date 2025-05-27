@@ -220,8 +220,12 @@ for file in vehicle_files_2025:
                 }
                 all_2025.append(record)
 
+
 df_2025 = pd.DataFrame(all_2025)
-df_2025.dropna(subset=["lat", "lon"], inplace=True)
+if df_2025.empty:
+    print("⚠️ No valid vehicle data found in JSON files.")
+else:
+    df_2025.dropna(subset=["lat", "lon"], inplace=True)
 
 # ✅ 计算 2025 年速度
 df_2025 = df_2025.sort_values(by=["vehicle_id", "timestamp"])

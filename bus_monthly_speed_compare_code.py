@@ -91,8 +91,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the CSV files again
-pre_2025_df = pd.read_csv("MTA_Bus_Speeds__2020_-_2024_20250430.csv")
-post_2025_df = pd.read_csv("MTA_Bus_Speeds__Beginning_2025_20250430.csv")
+pre_2025_df = pd.read_csv("bus_monthly_speed_data/MTA_Bus_Speeds__2020_-_2024_20250430.csv")
+post_2025_df = pd.read_csv("bus_monthly_speed_data/MTA_Bus_Speeds_Beginning_2025_20250430.csv")
 
 # Convert date column and add year/month
 pre_2025_df['month'] = pd.to_datetime(pre_2025_df['month'])
