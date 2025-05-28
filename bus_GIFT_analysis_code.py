@@ -205,7 +205,8 @@ all_2025 = []
 
 for file in vehicle_files_2025:
     try:
-        timestamp_str = file.split("_")[2] + "_" + file.split("_")[3].split(".")[0]
+        filename = os.path.basename(file)
+        timestamp_str = filename.split("_")[2] + "_" + filename.split("_")[3].split(".")[0]
         timestamp = datetime.strptime(timestamp_str, "%Y%m%d_%H%M%S")
 
         with open(file) as f:
