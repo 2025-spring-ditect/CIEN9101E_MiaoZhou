@@ -198,34 +198,81 @@ csv_2024["speed_kmh"] = csv_2024["distance_km"] / csv_2024["time_diff_hr"]
 
 
 # ✅ 加载 2025 年 4 月 1 日 JSON 数据（只取 M1）
-folder_2025 = "bus_GIFT_API_data/0423"
+folder_2025 = "bus_GIFT_API_data/0423_2025"
 vehicle_files_2025 = sorted(glob.glob(os.path.join(folder_2025, "vehicle_data_*.json")))
 
 all_2025 = []
+
 for file in vehicle_files_2025:
-    timestamp_str = file.split("_")[2] + "_" + file.split("_")[3].split(".")[0]
-    timestamp = datetime.strptime(timestamp_str, "%Y%m%d_%H%M%S")
-    with open(file) as f:
-        data = json.load(f)
-        vehicles = data.get("Siri", {}).get("ServiceDelivery", {}).get("VehicleMonitoringDelivery", [{}])[0].get("VehicleActivity", [])
+    try:
+        timestamp_str = file.split("_")[2] + "_" + file.split("_")[3].split(".")[0]
+        timestamp = datetime.strptime(timestamp_str, "%Y%m%d_%H%M%S")
+
+        with open(file) as f:
+            data = json.load(f)
+
+        vehicles = (
+            data.get("Siri", {})
+                .get("ServiceDelivery", {})
+                .get("VehicleMonitoringDelivery", [{}])[0]
+                .get("VehicleActivity", [])
+        )
+
         for v in vehicles:
             journey = v.get("MonitoredVehicleJourney", {})
-            if journey.get("PublishedLineName", [None])[0] == "M1":
-                record = {
-                    "timestamp": timestamp,
-                    "hour": timestamp.hour,
-                    "lat": journey.get("VehicleLocation", {}).get("Latitude"),
-                    "lon": journey.get("VehicleLocation", {}).get("Longitude"),
-                    "vehicle_id": journey.get("VehicleRef")
-                }
-                all_2025.append(record)
+            line_name = journey.get("PublishedLineName", [None])[0]
 
+            if line_name != "M1":
+                continue
+
+            lat = journey.get("VehicleLocation", {}).get("Latitude")
+            lon = journey.get("VehicleLocation", {}).get("Longitude")
+            vehicle_id = journey.get("VehicleRef")
+
+            # ✅ 如果任何一项是 None，则跳过
+            if None in [lat, lon, vehicle_id, timestamp]:
+                continue
+
+            record = {
+                "timestamp": timestamp,
+                "hour": timestamp.hour,
+                "lat": lat,
+                "lon": lon,
+                "vehicle_id": vehicle_id
+            }
+            all_2025.append(record)
+
+    except (json.JSONDecodeError, KeyError, ValueError, IndexError) as e:
+        print(f"⚠️ Skipped file due to error: {file}\n{e}")
+        continue
 
 df_2025 = pd.DataFrame(all_2025)
+
 if df_2025.empty:
-    print("⚠️ No valid vehicle data found in JSON files.")
+    print("⚠️ No valid vehicle data found — skipping further analysis.")
 else:
-    df_2025.dropna(subset=["lat", "lon"], inplace=True)
+    df_2025.dropna(subset=["lat", "lon", "vehicle_id"], inplace=True)
+
+    required_columns = {"vehicle_id", "timestamp", "lat", "lon"}
+    if not required_columns.issubset(df_2025.columns):
+        print(f"❌ Missing required columns in df_2025: {required_columns - set(df_2025.columns)}")
+    else:
+        try:
+            df_2025 = df_2025.sort_values(by=["vehicle_id", "timestamp"])
+            df_2025["prev_lat"] = df_2025.groupby("vehicle_id")["lat"].shift(1)
+            df_2025["prev_lon"] = df_2025.groupby("vehicle_id")["lon"].shift(1)
+            df_2025["prev_time"] = df_2025.groupby("vehicle_id")["timestamp"].shift(1)
+            df_2025["distance_km"] = df_2025.apply(
+                lambda row: haversine((row["prev_lat"], row["prev_lon"]), (row["lat"], row["lon"])) if pd.notnull(row["prev_lat"]) else None,
+                axis=1
+            )
+            df_2025["time_diff_hr"] = (df_2025["timestamp"] - df_2025["prev_time"]).dt.total_seconds() / 3600
+            df_2025["speed_kmh"] = df_2025["distance_km"] / df_2025["time_diff_hr"]
+            df_2025["in_crz"] = df_2025.apply(lambda row: crz_polygon.contains(Point(row["lon"], row["lat"])), axis=1)
+            df_2025["line"] = "M1"
+        except Exception as e:
+            print(f"❌ Error during 2025 speed computation: {e}")
+
 
 # ✅ 计算 2025 年速度
 df_2025 = df_2025.sort_values(by=["vehicle_id", "timestamp"])
